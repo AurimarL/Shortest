@@ -5,7 +5,12 @@ import { Card, Metric, Text, AreaChart, BadgeDelta, Flex } from "@tremor/react";
 import { useMemo } from "react";
 
 export default function OverviewStats() {
-  const data = useMemo(() => {
+  interface IGraphData {
+    Month: string;
+    "Total Visitors": number;
+  }
+
+  const data: IGraphData[] = useMemo(() => {
     const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun"];
     return [
       ...months.map((month) => ({

@@ -10,7 +10,7 @@ export default function HomePage() {
         alt="Platforms on Vercel"
         className="w-48"
       />
-      <h1 className="text-white">Home Page</h1>
+      <h1 className="text-white">Shortest Home Page</h1>
     </div>
   );
 }

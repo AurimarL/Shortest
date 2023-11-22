@@ -104,7 +104,7 @@ export default function Editor({ post }: { post: PostWithSite }) {
         />
       </div>
       <NovelEditor
-        className="relative block"
+        className="relative block text-black dark:text-white"
         defaultValue={post?.content || undefined}
         onUpdate={(editor) => {
           setData((prev) => ({

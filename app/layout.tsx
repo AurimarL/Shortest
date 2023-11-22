@@ -6,15 +6,14 @@ import { Metadata } from "next";
 import { cn } from "@/lib/utils";
 
 const title = "Shortest – The Shortest Blog.";
-const description =
-  "The Platforms Starter Kit is a full-stack Next.js app with multi-tenancy and custom domain support. Built with Next.js App Router, Vercel Postgres and the Vercel Domains API.";
-const image = "https://vercel.pub/thumbnail.png";
+const description = " – The Shortest Blog Platforms Starter Kit";
+const image = "https://shortest.blog/thumbnail.png";
 
 export const metadata: Metadata = {
-  applicationName: "Short",
+  applicationName: "Shortest",
   title,
   description,
-  icons: ["https://vercel.pub/favicon.ico"],
+  icons: ["https://shortest.blog/favicon.ico"],
   openGraph: {
     title,
     description,
@@ -27,7 +26,7 @@ export const metadata: Metadata = {
     images: [image],
     creator: "@vercel",
   },
-  metadataBase: new URL("https://vercel.pub"),
+  metadataBase: new URL("https://shortest.blog"),
 };
 
 export default function RootLayout({
